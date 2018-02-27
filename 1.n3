@@ -1,0 +1,17 @@
+[a notemark;
+has_quote """
+set PATH <mydir> $PATH
+
+in your config.fish, so it gets executed every time fish starts. That just modifies the existing global PATH.
+""";
+has_url <https://github.com/fish-shell/fish-shell/issues/527>;
+has_tag "fish path";
+has_fulltext <How to set $PATH persistently? · Issue #527 · fish-shell_fish-shell.html>.]
+
+
+
+[a notemark;
+has_tag "proof visualization";
+has_tag "proof language";
+has_url <https://en.wikipedia.org/wiki/Logical_graph>]
+

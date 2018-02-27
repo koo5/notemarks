@@ -1,0 +1,92 @@
+stuff to do with your computer:
+	fulltext search with solr:
+
+
+
+
+where i publish stuff:
+	https://github.com/koo5/koo5.github.com/tree/master/rdf
+	
+
+
+
+
+logic:
+	https://math.stackexchange.com/questions/1695520/which-fol-consequence-relation-is-better-to-teach
+	https://cs.nyu.edu/pipermail/fom/2004-September/008483.html
+
+
+
+susicka:
+	https://www.mall.cz/kondenzacni-susicky/candy-slc-d813b-s?tab=reviews
+	
+	
+
+offers:
+	detska postylka cca 150cm dlouha
+
+
+needs:
+	zavesit houpacku do stropu panelakoveho bytu
+
+
+
+available:
+	mala stolni pila, vibracni rezadlo, flexa
+
+
+
+
+reviews:
+	in hreview format:
+		"""
+		<html><div class="hreview" id="hreview-stay-away"><h2 class="summary">stay away</h2>
+		  <abbr class="dtreviewed" title="2017-06-22T23:39">Jun 22, 2007</abbr>  by <span class="reviewer vcard">
+		  <span class="fn">koo5</span></span><span class="type" style="display: none;">business</span>
+		  
+		   <div class="item vcard"><a href="http://www.vasecigareta.cz" class="url fn org">VaseCigareta.cz</a>
+			<div class="tel">+420 377 422 889</div><div class="adr"><div class="street-address">Štemberova 200</div>
+			<span class="locality">Kyšice</span><span class="postal-code"> 330 01</span></div></div>
+		  
+		 <blockquote class="description"><p>koupil jsem 4 ruzne ecigarety, s kazdou byly problemy, dve skoncily nefunkcni, jedna olepena izolepou, dalsi se chystam reklamovat, v minulosti opakovane reklamace k nicemu</p></blockquote><span class="version" style="display: none;">0.3</span><p>This <a href="http://microformats.org/wiki/hreview">hReview</a> brought to you by the <a href="http://microformats.org/code/hreview/creator">hReview Creator</a>.</p></div></html>
+
+
+
+		<div class="hreview" id="hreview-misleading-information-in-the-e-shop"><h2 class="summary">misleading information in the e-shop</h2><abbr class="dtreviewed" title="2017-07-22T23:59">Jul 22, 2007</abbr>  by <span class="reviewer vcard"><span class="fn">koo5</span></span><span class="type" style="display: none;">business</span><div class="item vcard"><a href="http://prikryvky.cz" class="url fn org">prikryvky.cz</a></div><abbr title="1" class="rating">★☆☆☆☆</abbr><span class="version" style="display: none;">0.3</span><p>This <a href="http://microformats.org/wiki/hreview">hReview</a> brought to you by the <a href="http://microformats.org/code/hreview/creator">hReview Creator</a>.</p></div>
+
+
+		<div class="hreview" id="hreview-ok"><h2 class="summary">ok</h2><abbr class="dtreviewed" title="2017-07-22T23:59">Jul 22, 2007</abbr>  by <span class="reviewer vcard"><span class="fn">koo5</span></span><span class="type" style="display: none;">business</span><div class="item vcard"><span class="fn org">https://www.trustpay.eu , https://anycoindirect.eu</span></div><abbr title="5" class="rating">★★★★★</abbr><span class="version" style="display: none;">0.3</span><p>This <a href="http://microformats.org/wiki/hreview">hReview</a> brought to you by the <a href="http://microformats.org/code/hreview/creator">hReview Creator</a>.</p></div>
+
+
+		<div class="hreview" id="hreview-problematicka-komunikace-a-doprava"><h2 class="summary">problematicka komunikace a doprava</h2><abbr class="dtreviewed" title="2007-07-22T23:59">Jul 22, 2007</abbr>  by <span class="reviewer vcard"><span class="fn">koo5</span></span><span class="type" style="display: none;">business</span><div class="item vcard"><span class="fn org">panmatraci.cz</span></div><blockquote class="description"><p><abbr title="1" class="rating">function rating_stars(rating){
+			var stars  = [];
+			for(i = 0; i &lt; 5; i++){
+			  if(i &lt; rating) {
+				stars += String.fromCharCode(parseInt('2605', 16));
+			  } else {
+				stars += String.fromCharCode(parseInt('2606', 16));
+			  }
+			}
+			return stars
+		}</abbr> ve vysledku cekani asi 14 dni, potrhane obaly, zaspinene matrace. Jinak same pozitivni recenze, viz https://obchody.heureka.cz/panmatraci-cz/recenze/
+		</p></blockquote><span class="version" style="display: none;">0.3</span><p>This <a href="http://microformats.org/wiki/hreview">hReview</a> brought to you by the <a href="http://microformats.org/code/hreview/creator">hReview Creator</a>.</p></div>
+		"""
+
+
+
+
+
+	in n3 format:
+		"""
+		@prefix rev: <http://purl.org/stuff/rev#>
+		http://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FGoogle_Chrome_for_Android&sid=11796
+
+
+
+
+
+
+paradoxes:
+	impredicative: 
+		Definitions such as this which depends on a set of entities, at least one of which is the entity being defined, are called impredicative.
+		
